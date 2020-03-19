@@ -38,3 +38,62 @@ nav ul li a:hover {
     color: red;
 }
 
+form {
+    
+    margin: 20px;
+    width: 300px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+}
+textarea {
+    padding: 20px;
+    resize: both;
+    max-height: 200px;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px red;
+    border: 1px solid red;
+}
+
+::placeholder {
+   color: black;
+   opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+ }
+
+ ::-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+ }
+
+button {
+    padding: 5px;
+}
+
+.p3 {
+    margin-left: 20px;
+    padding: 1px;
+}
+
+#ct {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#hours {
+    margin-left: 20px;
+    text-decoration: none;
+}

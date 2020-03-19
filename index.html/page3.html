@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Contact Form</title>
   </head>
-  <body>
+  <body id="b3">
     <nav>
       <ul>
         <li><a href="page1.html">Home</a></li>
@@ -18,10 +18,17 @@
         <li><a href="page3.html">Contact Form</a></li>
       </ul>
     </nav>
-    <h1>Contact Form</h1>
-    <p>Leave your contact info and a description of the tattoo you are wanting to get.</p>
-    <p>You can send a photo as an example here</p>
-      
+    <h1 id="ct">Contact Form</h1>
+    <p class=p3>Leave your contact info and a description of the tattoo you are wanting to get.</p>
+    <p class="p3">You can send a photo as an example <a href="aktatts@gmail.com">here</a></p>
+    <form>
+      <input type="text" name="FirstName" placeholder="Enter your first name">
+      <input type="text" name="LastName" placeholder="Enter your last name"><br />
+      <input type="text" name="phone number" placeholder="phone number"><br />
+      <textarea name="descrption" placeholder="description of tattoo"></textarea><br />
+      <button type="button" class="btn btn-dark">Submit</button>   
+    </form>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
