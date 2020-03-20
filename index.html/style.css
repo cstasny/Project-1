@@ -14,7 +14,6 @@ nav p {
  color: red;
  font-size: 25px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- padding 0px 0px;
 }
 
 form button {
@@ -25,6 +24,11 @@ form button {
 body {
     background-color:red;
     color: black;
+}
+
+footer {
+    background-color: black ;
+    color: white;
 }
 
 ul {
