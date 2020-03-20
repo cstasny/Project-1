@@ -1,16 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-
 nav {
     width: 100%;
-    height: 100px;
-    background-color: #fff;
+    height: 60px;
+    background-color: black;
+}
+
+nav p {
+ float: left;
+ line-height: 55px;
+ color: red;
+ font-size: 25px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ padding 0px 0px;
+}
+
+form button {
+   background-color: black;
+   color: white;
 }
 
 body {
-    background-color: #eee;
+    background-color:red;
+    color: black;
 }
 
 ul {
@@ -21,7 +35,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     float: center;
-    line-height: 100px;
+    line-height: 60px;
 }
 
 nav ul li a {
@@ -29,7 +43,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #1e1e1e;
+    color: white;
     padding: 0 20px;
 }
 
@@ -56,17 +70,17 @@ textarea {
 
 input, textarea {
     outline: none;
-    border: 1px solid;
+    border: 2px solid;
 }
 
 input:focus, textarea:focus {
-    box-shadow: 0 0 5px red;
-    border: 1px solid red;
+    box-shadow: 0 0 5px black;
+    border: 1px solid black;
 }
 
 ::placeholder {
    color: black;
-   opacity: 1;
+   opacity: 1px;
 }
 
 :-ms-input-placeholder {
@@ -94,6 +108,13 @@ button {
 }
 
 #hours {
-    margin-left: 20px;
-    text-decoration: none;
+    margin-left: 0px;
+    list-style: none;
+}
+#logo {
+    text-align: center;
+}
+
+#link{
+   color: white;
 }
