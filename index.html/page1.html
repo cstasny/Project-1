@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Top Tattoo!</title>
   </head>
-  <body id="pg1">
+  <body>
     <nav>
       <ul>
         <p>Top Tattoo</p>
@@ -21,7 +21,8 @@
     </nav>
     <br />
     <div id="logo">
-    <img src="images/toptattologo_a.jpg." alt="Logo">
+    <!--<img src="images/toptattologo_a.jpg." alt="Logo">-->
+    <img src="images/toptattologo_a.jpg" class="img-fluid" alt="Responsive image">
     </div>
     <br />
     <section>
@@ -46,20 +47,50 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </section>
       <br />
+    <section class="text-center">
       <h3>About the shop</h3>
       <p>
         This shop prides itself on having laid back and inviting atmosphere. The staff has created a friendly and stressfree environment for first time tattoo customers and expierienced ones. They have three highly trained and professional artists who are versatile in their craft and can create any style you are looking for.
       </p>
     </section>
-    <section>
-      <h3>Location and Hours</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h3>About the shop</h3>
       <p>
+        This shop prides itself on having laid back and inviting atmosphere. The staff has created a friendly and stressfree environment for first time tattoo customers and expierienced ones. They have three highly trained and professional artists who are versatile in their craft and can create any style you are looking for.
+      </p>
+        </div>
+        <div class="col-sm">
+          <h3>The store is located at:</h3>
+          <p>2906 N Laurent St, Victoria TX<br/>
+             Phone Number: 361-894-6368
+        </div>
+        <div class="col-sm">
+          <h3>store Hours:</h3>
+          <ul id="hours">
+            <li>Monday 12:00pm - 10:00pm</li>
+            <li>Tuesday 12:00pm - 9:00pm</li>
+            <li>Wednesday 12:00pm - 9:00pm</li>
+            <li>Thursday 12:00pm - 9:00pm</li>
+            <li>Friday 12:00pm - 9:00pm</li>
+            <li>Saturday 12:00pm - 9:00pm</li>
+            <li>Sunday 12:00pm - 9:00pm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--<section>
+      <h3>Location and Hours:</h3>
         <h5>The store is located at:</h5>
         2906 N Laurent St, Victoria TX:<br />
+      </section>
         <br />
-        <h5>Hours:</h5>
-        <div>
+        <section>
+        <div class="text-right">
+          <h5>Hours:</h5>
           <ul id="hours">
             <li>Monday 12:00pm - 10:00pm</li>
             <li>Tuesday 12:00pm - 9:00pm</li>
@@ -70,7 +101,9 @@
             <li>Sunday 12:00pm - 9:00pm</li>
           </ul>
       </div>
-        </p>
+    </section>-->
+        
+        <footer>2020 Top Tattoo</footer>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
