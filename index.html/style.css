@@ -14,18 +14,18 @@ nav p {
     margin-left: 15px;
     float: left;
     line-height: 55px;
-    color: red;
+    color: rgb(214, 32, 32);
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 form button {
-   background-color: black;
+   background-color: rgb(214, 32, 32);
    color: white;
 }
 
 body {
-    background-color:red;
+    background-color:rgb(214, 32, 32);
     color: black;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    color: red;
+    color: rgb(214, 32, 32);
 }
 
 form {
@@ -113,10 +113,7 @@ button {
     margin-left: 0px;
     list-style: none;
 }
-#logo {
-    text-align: center;
-    padding: 50px;
-}
+
 
 #link{
    color: white;
@@ -150,3 +147,23 @@ button {
     border: 3px;
     border-style: solid;
 }
+
+.carousel-inner {
+    background-size: 100%;
+display: flex;
+   
+}
+
+#map {
+ width: 200px;
+}
+
+#logo {
+    padding-top: 80px;
+    }
+
+#b3 {
+    background-image: url(images/otherlogo.jpg);
+    
+}
+    
