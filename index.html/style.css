@@ -25,8 +25,9 @@ form button {
 }
 
 body {
-    background-color:rgb(214, 32, 32);
-    color: black;
+    background-image: url(images/redcurtains.jpg);
+    background-size: cover;
+    color: white;
 }
 
 footer {
@@ -115,6 +116,11 @@ button {
     padding: 1px;
 }
 
+.p3 a {
+    text-decoration-line: underline;
+
+}
+
 #ct {
     margin-top: 40px;
     margin-left: 150px;
@@ -172,7 +178,11 @@ display: flex;
 
 #logo {
     padding-top: 80px;
-    }
+}
+
+#logo1 {
+    outline: 3px solid white;
+}
 
 #b3 {
     background-color: rgb(214, 32, 32);
@@ -190,3 +200,20 @@ display: flex;
     border: 3px solid black;
 }
 
+#carouselExampleSlides {
+    object-fit: scale-down;
+    border: 3px solid black;
+    background-size: cover;
+}
+
+.col-sm {
+   
+}
+
+.h3 {
+    background-color: black;
+    color: white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;;
+    
+}
