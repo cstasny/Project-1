@@ -20,7 +20,7 @@ nav p {
 }
 
 form button {
-   background-color: rgb(214, 32, 32);
+   background-color: black;
    color: white;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     padding: 0 20px;
@@ -54,17 +54,27 @@ nav ul li a:hover {
     color: rgb(214, 32, 32);
 }
 
-form {
+.media {
     
+    display: inline-flex;
+    margin-right: 30px;
+    float: right;
+}
+
+
+form {
     margin: 20px;
     width: 300px;
 }
 
+
 input {
+    margin-left: 125px;
     padding: 5px;
     width: 100%;
 }
 textarea {
+    margin-left: 125px;
     padding: 20px;
     resize: both;
     max-height: 200px;
@@ -97,15 +107,17 @@ input:focus, textarea:focus {
 
 button {
     padding: 5px;
+    margin-left: 200px;
 }
 
 .p3 {
-    margin-left: 20px;
+    margin-left: 150px;
     padding: 1px;
 }
 
 #ct {
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
     padding: 5px;
 }
 
@@ -163,7 +175,18 @@ display: flex;
     }
 
 #b3 {
-    background-image: url(images/otherlogo.jpg);
+    background-color: rgb(214, 32, 32);
     
 }
-    
+
+.artistinsta {
+    font-size: 50px;
+}
+
+#carouselExampleSlidesOnly {
+    width: 500px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
