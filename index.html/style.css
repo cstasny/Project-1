@@ -8,6 +8,8 @@ nav {
     width: 100%;
     height: 60px;
     background-color: black;
+    
+    
 }
 
 nav p {
@@ -16,7 +18,7 @@ nav p {
     line-height: 55px;
     color: rgb(214, 32, 32);
     font-size: 22px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: days;
 }
 
 form button {
@@ -24,14 +26,20 @@ form button {
    color: white;
 }
 
+@font-face {
+    src: url(fonts/28days.ttf);
+    font-family: days;
+}
+
 body {
     background-image: url(images/redcurtains.jpg);
     background-size: cover;
     color: white;
+    font-family: days;
 }
 
 footer {
-    background-color: black ;
+    background-color: black;
     color: white;
 }
 
@@ -45,7 +53,7 @@ nav ul li a {
     display: block;
     text-decoration: none;
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: days;
     color: white;
     padding: 0 20px;
 }
@@ -114,16 +122,25 @@ button {
 .p3 {
     margin-left: 150px;
     padding: 1px;
+    font-family: staat;
 }
 
+@font-face {
+  src: url(fonts/Staatliches-Regular.ttf);
+  font-family: staat;
+}
 
+.newfont {
+    font-family: staat;
+}
 
 #ct {
     justify-content: center;
     display: flex;
     margin-top: 100px;
-    
 }
+
+
 
 #hours {
     margin-left: 0px;
@@ -155,8 +172,7 @@ button {
 
 h4 {
     background-color: black;
-    border-left: 3px solid  white;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
 }
 
  
@@ -193,7 +209,7 @@ h4 {
 
 
 .img-fluid {
-    border: 2px;
+    border: 2px solid black;
     border-style: solid;
 }
 
@@ -226,10 +242,11 @@ h4 {
 #carouselExampleSlidesOnly {
     width: 500px;
     margin-right: 150px;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: auto;
     border: 3px solid black;
-
 }
+    
 
 .col-centered {
     float: none;
@@ -245,14 +262,7 @@ h4 {
     border-bottom: 2px solid white;
 }
 
-#carouselExampleSlidesOnl {
-    width: 500px;
-    margin-right: 150px;
-    margin-top: 50px;
-    border: 3px solid black;
-}
 
-#carouselp3 {
-    display: flex;
-    justify-content: center;
+.carousel-item {
+    border: 2px solid black;
 }
