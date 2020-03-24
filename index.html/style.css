@@ -15,7 +15,7 @@ nav p {
     float: left;
     line-height: 55px;
     color: rgb(214, 32, 32);
-    font-size: 25px;
+    font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     padding: 0 20px;
@@ -116,16 +116,13 @@ button {
     padding: 1px;
 }
 
-.p3 a {
-    text-decoration-line: underline;
-    color: yellow;
 
-}
 
 #ct {
-    margin-top: 40px;
-    margin-left: 150px;
-    padding: 5px;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    
 }
 
 #hours {
@@ -135,8 +132,41 @@ button {
 
 
 #link{
-   color: white;
+    color:  white;
+    text-decoration-line: underline;
+    font-size: 25px;
 }
+
+#link:hover {
+    color: rgb(214, 32, 32);
+}
+
+#links {
+    color:  white;
+    text-decoration: none;
+    font-size: 25px;
+    list-style: none;
+
+}
+
+#links:hover {
+    color: rgb(214, 32, 32);
+}
+
+h4 {
+    background-color: black;
+    border-left: 3px solid  white;
+    border-bottom: 1px solid white;
+}
+
+ 
+#emaillink{
+    color: white;
+    text-decoration-line: underline;
+    
+ }
+
+
 
 #pg2title {
     text-align: center;
@@ -161,17 +191,18 @@ button {
     pad: 10px;
 }
 
+
 .img-fluid {
-    border-color: black;
-    border: 3px;
+    border: 2px;
     border-style: solid;
 }
 
-.carousel-inner {
-    background-size: 100%;
-display: flex;
-   
+.figcaption {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
 }
+
 
 #map {
  width: 200px;
@@ -182,39 +213,46 @@ display: flex;
 }
 
 #logo1 {
-    outline: 3px solid white;
+    outline: 2px solid white;
 }
 
-#b3 {
-    background-color: rgb(214, 32, 32);
-    
-}
+
 
 .artistinsta {
     font-size: 50px;
 }
+
 
 #carouselExampleSlidesOnly {
     width: 500px;
     margin-right: 150px;
     margin-top: 50px;
     border: 3px solid black;
+
 }
 
-#carouselExampleSlides {
-    object-fit: scale-down;
-    border: 3px solid black;
-    background-size: cover;
-}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+ }
 
-.col-sm {
-   
-}
+
 
 .h3 {
     background-color: black;
     color: white;
-    border-left: 3px solid white;
-    border-bottom: 3px solid white;;
-    
+    border-left: 2px solid  white;
+    border-bottom: 2px solid white;
+}
+
+#carouselExampleSlidesOnl {
+    width: 500px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+#carouselp3 {
+    display: flex;
+    justify-content: center;
 }
