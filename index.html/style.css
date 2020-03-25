@@ -119,7 +119,7 @@ button {
     margin-left: 200px;
 }
 
-.p3 {
+#p3 {
     margin-left: 150px;
     padding: 1px;
     font-family: staat;
@@ -182,6 +182,10 @@ h4 {
     
  }
 
+ #emaillink:hover {
+    color: rgb(214, 32, 32);
+}
+
 
 
 #pg2title {
@@ -221,7 +225,12 @@ h4 {
 
 
 #map {
- width: 200px;
+    height: 250px;
+    width: 250px;
+}
+
+#mappic {
+ width: 250px;
 }
 
 #logo {
@@ -241,9 +250,9 @@ h4 {
 
 #carouselExampleSlidesOnly {
     width: 500px;
-    margin-right: 150px;
+    
     margin-top: 25px;
-    margin-bottom: auto;
+    
     border: 3px solid black;
 }
     
