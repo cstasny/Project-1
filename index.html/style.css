@@ -41,6 +41,13 @@ body {
 footer {
     background-color: black;
     color: white;
+    
+}
+
+#foot {
+ 
+    position: sticky;
+
 }
 
 nav ul li {
@@ -193,19 +200,7 @@ h4 {
     
 }
 
-#aaron {
-    width: 250px;
-    margin-left: 30px;
-    pad: 10px;
-}
-
-#kevin {
-    width: 250px;
-    margin-left: 30px;
-    pad: 10px;
-}
-
-#steve {
+.artists {
     width: 250px;
     margin-left: 30px;
     pad: 10px;
@@ -221,16 +216,6 @@ h4 {
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
-}
-
-
-#map {
-    height: 250px;
-    width: 250px;
-}
-
-#mappic {
- width: 250px;
 }
 
 #logo {
@@ -250,6 +235,7 @@ h4 {
 
 #carouselExampleSlidesOnly {
     width: 500px;
+    margin-bottom: 100px;
     
     margin-top: 25px;
     
@@ -275,3 +261,8 @@ h4 {
 .carousel-item {
     border: 2px solid black;
 }
+
+
+   
+   
+

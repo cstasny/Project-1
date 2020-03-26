@@ -6,3 +6,5 @@ function initMap() {
       center: location
     });
   }
+
+  <!--<script src="js/script.js"></script>-->
