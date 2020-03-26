@@ -31,13 +31,15 @@
       <div>
     <h1 id="ct">Contact Form</h1>
     <p id="p3">Leave your contact info and a description of your future tattoo!<br />
-       You can email us some example photos <a id="emaillink" href="mailto:aktatts@gmail.com" target="_blank">here!</a></p>
-    <form>
+       You can email us some example photos <a id="emaillink" href="mailto:stasser1@gmail.com" target="_blank">here!</a></p>
+    <form action="https://formspree.io/mrgldjqo"
+    method="POST">
       <input type="text" name="FirstName" placeholder="Enter your first name" required>
       <input type="text" name="LastName" placeholder="Enter your last name"><br />
       <input type="text" name="Phone" placeholder="Phone Number" required><br />
+      <input input type="text" name="_replyto" placeholder="enter your email"><br />
       <textarea name="descrption" placeholder="description of tattoo"></textarea><br />
-      <button type="button">Submit</button>
+      <input id="button" type="submit" value="Send">
     </div>
     </div>   
     </form>
